@@ -9,6 +9,7 @@
 5. dpkg --force-overwrite -i openssl-1.0.2r.deb
 6. dpkg --force-overwrite -i curl-7.64.1_7.deb
 7. dpkg --force-overwrite -i git-2.21.0_2.2.deb
+8. git config --global http.sslVerify false
 
 ## Building
 1. openssl:
